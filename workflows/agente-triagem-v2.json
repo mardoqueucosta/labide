@@ -1013,7 +1013,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const text = $input.first().json.output || items[0].json?.text || '';\nconst parts = text\n  .split(/(?<!\\b(?:Dr|Dra|Sr|Sra|Prof|Ms|Mr|Mrs)\\\.)(?<=\\\.)\\\s+/)\n  .map(p => p.replace(/([?!])\\\s+/g, '$1\\n').trim())\n  .filter(p => p.length > 0);\nreturn parts.map(p => ({ json: { text: p } }));"
+        "jsCode": "// Function node (retorna v\u00e1rios itens)\n// Supondo que a entrada esteja em items[0].json.output\nconst texto = $input.first().json.output || items[0].json?.text || '';\nconst partes = texto\n  .split(/(?<!\\b(?:Dr|Dra|Sr|Sra|Prof|Ms|Mr|Mrs)\\.)(?<=\\.)\\s+/)\n  .map((p) => p.replace(/([?!])\\s+/g, '$1\\n').trim())\n  .filter((p) => p.length > 0);\n\nreturn partes.map((p) => ({ json: { text: p } }));\n"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
