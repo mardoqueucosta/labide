@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Aluguel e Locação de Toalhas de mesa, sousplat, guardanapos de tecido, porta guardanapos para festas, aniversários, bodas e comemorações.">
+    <meta name="keywords" content="locação toalhas, aluguel toalhas, sousplat, guardanapos, festas, eventos">
+    <title>Locação de Toalhas de mesa, sousplat, guardanapos para festa - Imperial Toalheria</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Locação de Toalhas de mesa, sousplat, guardanapos para festa">
+    <meta property="og:description" content="Aluguel e Locação de Toalhas de mesa, sousplat, guardanapos de tecido, porta guardanapos para festas, aniversários, bodas e comemorações.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/logo-v2.webp">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo-v2.webp" alt="Imperial Toalheria Logo">
+                    </a>
+                </div>
+
+                <nav class="nav-menu" id="navMenu">
+                    <ul class="menu-list">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="search-btn" id="searchBtn" aria-label="Buscar">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search Overlay -->
+        <div class="search-overlay" id="searchOverlay">
+            <div class="search-container">
+                <button class="search-close" id="searchClose" aria-label="Fechar busca">
+                    <i class="fas fa-times"></i>
+                </button>
+                <form class="search-form">
+                    <input type="search" placeholder="Digite sua busca..." class="search-input">
+                    <button type="submit" class="search-submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">imperialToalheria</h1>
+                <p class="hero-subtitle">Todas as opções em toalhas, guardanapos e acessórios para sua comemoração</p>
+                <a href="#produtos" class="btn btn-primary">Confira nossos produtos</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="servicos" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Aluguel e Locação para Festas e Eventos</h2>
+                <p class="section-description">
+                    Oferecemos aluguel e locação de toalhas de mesa, sousplat, guardanapos de tecido,
+                    porta guardanapos para festas, aniversários, bodas e comemorações especiais.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Qualidade Premium</h3>
+                    <p>Produtos de alta qualidade para tornar seu evento ainda mais especial</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Entregamos seus produtos no prazo combinado, sem complicações</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Ajudamos você a escolher os melhores produtos para seu evento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Section -->
+    <section id="produtos" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Confira nossos itens para locação!</h2>
+                <p class="section-description">Uma ampla variedade de produtos para deixar seu evento perfeito</p>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/aluguel-toalha-de-mesa-7.webp" alt="Toalhas de mesa">
+                        <div class="product-overlay">
+                            <a href="#contato" class="btn btn-secondary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Toalhas de mesa</h3>
+                        <p class="product-description">Diversas opções de cores e tamanhos para sua mesa</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/aluguel-sobre-toalha-toalha-cobre-mancha.webp" alt="Sobre toalha">
+                        <div class="product-overlay">
+                            <a href="#contato" class="btn btn-secondary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Sobre toalha</h3>
+                        <p class="product-description">Toalhas cobre-mancha para decoração elegante</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/aluguel-toalha-banquete.webp" alt="Toalha Banquete">
+                        <div class="product-overlay">
+                            <a href="#contato" class="btn btn-secondary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Toalha Banquete</h3>
+                        <p class="product-description">Toalhas especiais para mesas de banquete</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/aluguel-toalha-trilho-de-mesa-caminho-de-mesa.webp" alt="Trilho de mesa">
+                        <div class="product-overlay">
+                            <a href="#contato" class="btn btn-secondary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Trilho de mesa</h3>
+                        <p class="product-description">Caminhos de mesa para decoração sofisticada</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/aluguel-guardanapo-tecido.webp" alt="Guardanapos">
+                        <div class="product-overlay">
+                            <a href="#contato" class="btn btn-secondary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Guardanapos</h3>
+                        <p class="product-description">Guardanapos de tecido em diversas cores</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/aluguel-porta-guardanapo-001.webp" alt="Porta Guardanapos">
+                        <div class="product-overlay">
+                            <a href="#contato" class="btn btn-secondary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Porta Guardanapos</h3>
+                        <p class="product-description">Porta guardanapos elegantes para sua mesa</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/aluguel-sousplat-festa.webp" alt="Sousplat">
+                        <div class="product-overlay">
+                            <a href="#contato" class="btn btn-secondary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Sousplat</h3>
+                        <p class="product-description">Sousplats para deixar sua mesa ainda mais bonita</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/aluguel-jogo-americano.webp" alt="Jogo Americano">
+                        <div class="product-overlay">
+                            <a href="#contato" class="btn btn-secondary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Jogo Americano</h3>
+                        <p class="product-description">Jogos americanos práticos e elegantes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronto para tornar seu evento inesquecível?</h2>
+                <p>Entre em contato conosco e solicite um orçamento personalizado</p>
+                <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos contatos</h2>
+                <p class="section-description">Entre em contato conosco para mais informações</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>TELEFONE:</h3>
+                    <p><a href="tel:+5516996186879">(16) 99618-6879</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>E-MAIL:</h3>
+                    <p><a href="mailto:contato@imperialtoalheria.com.br">contato@imperialtoalheria.com.br</a></p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>ENDEREÇO:</h3>
+                    <p>R. Domingos Jorge Velho, 436<br>Jardim Centenário<br>São Carlos - SP, 13564-130</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nome completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="event-date">Data do evento</label>
+                            <input type="date" id="event-date" name="event-date">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <img src="images/logo-v2.webp" alt="Imperial Toalheria" class="footer-logo">
+                    <p>Aluguel de toalhas de mesa, guardanapos de tecido, toalhas trilhos de mesa, sousplat para festas e decoração</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+5516996186879">(16) 99618-6879</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:contato@imperialtoalheria.com.br">contato@imperialtoalheria.com.br</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>São Carlos - SP</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Siga-nos</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Imperial Toalheria. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5516996186879" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
